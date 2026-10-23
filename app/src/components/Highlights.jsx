@@ -79,20 +79,34 @@ export default function Highlights() {
 
         <ul className="hl-benefits" data-reveal>
           <li>
-            <span aria-hidden="true">✨</span>
+            <span className="hl-benefits__icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M12 1v6M12 17v6M1 12h6M17 12h6" />
+              </svg>
+            </span>
             <p>
               <strong>100% Exclusivo:</strong> El espacio es solo para ti durante tu cita.
             </p>
           </li>
           <li>
-            <span aria-hidden="true">💅</span>
+            <span className="hl-benefits__icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 11l3 3L22 4" />
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+              </svg>
+            </span>
             <p>
               <strong>Detalle impecable:</strong> Cuidamos la salud de tus uñas sin trabajar a las
               carreritas.
             </p>
           </li>
           <li>
-            <span aria-hidden="true">💖</span>
+            <span className="hl-benefits__icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 21s-7-4.35-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.65-7 10-7 10z" />
+              </svg>
+            </span>
             <p>
               <strong>Tu estilo:</strong> Hacemos realidad la idea que traigas en mente.
             </p>
